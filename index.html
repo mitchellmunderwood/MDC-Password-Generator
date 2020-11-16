@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
-
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="assets/enso.png">
-
+    <link rel="icon" type="image/png" href="assets/enso.png">
     <!-- Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
     <title>Password Generator</title>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
     <div class="mdc-card"> 
@@ -26,34 +21,28 @@
                 <span class="mdc-button__ripple"></span>Generate Password
             </button>
 
+            <!-- Settings Menu and Anchor icon -->
             <div id="anchor">
-                <button class="mdc-icon-button material-icons" id="timePickerBtn">
+                <button class="mdc-icon-button material-icons" id="settingsPickerBtn">
                     <span class="mdc-button__ripple"></span>
                     <span class="material-icons">more_horiz</span>
                 </button>
-                <div class="mdc-menu mdc-menu-surface" id="timePickerMenu" >
+                <div class="mdc-menu mdc-menu-surface" id="settingsPickerMenu" >
                     <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
                         <div id="settings-menu" >
                             <div id="length-menu">
-
-
-                            
                             <h4>Password Length</h4>
                             <div class="mdc-text-field mdc-text-field--outlined">
                                 <input class="mdc-text-field__input" id="text-field-hero-input" value="8">
                                 <div class="mdc-notched-outline">
                                   <div class="mdc-notched-outline__leading"></div>
                                   <div class="mdc-notched-outline__notch">
-                                    <!-- <label for="text-field-hero-input" class="mdc-floating-label">Password Length</label> -->
                                   </div>
                                   <div class="mdc-notched-outline__trailing"></div>
                                 </div>
                               </div>
                             </div>
                             <div id="characters-menu"> 
-                    
-                               
-                    
                                 <h4>Characters Included</h4>
                                 <div class="chars-menu-item">
                                     <p>Uppercase</p>
@@ -92,33 +81,22 @@
                                         <div class="mdc-switch__thumb-underlay">
                                         <div class="mdc-switch__thumb"></div>
                                         <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="true" checked>
-                                        </div>
                                     </div>
-                                </div>              
-                            </div>
-                       
+                                </div>
+                            </div>              
+                        </div>
                     </ul>
                 </div>
             </div>
-            
         </div>
 
+        <!-- Password Output and Copy icon -->
         <label id="password" class="mdc-text-field mdc-text-field--filled mdc-text-field--with-trailing-icon">
-           
-
-           
-
             <input id="password_output" class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
-
-            <!-- <i id="icon" class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0" role="button">content_paste</i> -->
-
             <button class="mdc-icon-button material-icons" id="icon">
-                <!-- <span class="mdc-button__ripple"></span> -->
                 <span class="material-icons">content_paste</span>
             </button>
         </label>
-        <span class="mdc-menu-surface--anchor">  
-        </span>
     </div>
     <script src='script.js' ></script>
 </body>

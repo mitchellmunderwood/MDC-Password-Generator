@@ -1,7 +1,11 @@
+/* Root color scheme with google MDC --------------------------------------------------------------------------*/
+
 :root {
   /* --mdc-theme-primary: #fcb8ab; */
   --mdc-theme-secondary: #6200ee;
 }
+
+/* Basic Layout Components ------------------------------------------------------------------------------------*/
 
 .mdc-card {
   width: 410px;
@@ -20,6 +24,13 @@ h2 {
   background-color: blue;
 }
 
+#password {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
 .settings {
   border-radius: 50%;
 }
@@ -32,13 +43,6 @@ h2 {
   align-items: center;
 }
 
-#password {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  padding-right: 5px;
-}
-
 #anchor {
   position: relative;
 }
@@ -49,19 +53,17 @@ h2 {
 
 #icon {
   color: #6200ee;
-  /* background-color: rgb(199, 199, 199); */
   margin-left: 10px;
 }
 
+/* Setting's Menu ------------------------------------------------------------------------------------------------*/
+
 #settings-menu {
-  /* border-radius: 5px; */
   width: 250px;
   padding: 15px 10px 15px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
-      0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12); */
 }
 
 #characters-menu {
@@ -101,7 +103,6 @@ ul.mdc-list {
   width: 30px;
   height: 100%;
   text-align: right;
-  /* padding: 0px 20px; */
 }
 
 #length-menu {
@@ -109,3 +110,5 @@ ul.mdc-list {
   justify-content: space-between;
   align-items: center;
 }
+
+/* End -------------------------------------------------------------------------------------------------------*/
