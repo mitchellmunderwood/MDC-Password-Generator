@@ -19,6 +19,40 @@
     <title>Password Generator</title>
 </head>
 <body>
-    
+    <div class="mdc-card"> 
+        <h2>Password Generator</h2>
+        <div class="button-container"> 
+            <button id="generate" class="mdc-button mdc-button--raised" color="red">  
+                <span class="mdc-button__ripple"></span>Generate Password
+            </button>
+
+            <div id="anchor">
+                <button class="mdc-icon-button material-icons" id="timePickerBtn">
+                    <span class="mdc-button__ripple"></span>
+                    <span class="material-icons">more_horiz</span>
+                </button>
+                
+            </div>
+            
+        </div>
+
+        <label id="password" class="mdc-text-field mdc-text-field--filled mdc-text-field--with-trailing-icon">
+           
+
+           
+
+            <input id="password_output" class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+
+            <!-- <i id="icon" class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0" role="button">content_paste</i> -->
+
+            <button class="mdc-icon-button material-icons" id="icon">
+                <!-- <span class="mdc-button__ripple"></span> -->
+                <span class="material-icons">content_paste</span>
+            </button>
+        </label>
+        <span class="mdc-menu-surface--anchor">  
+        </span>
+    </div>
+    <script src='script.js' ></script>
 </body>
 </html>
