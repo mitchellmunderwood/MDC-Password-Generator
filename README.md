@@ -3,7 +3,7 @@
   <!-- image/logo link -->
   <a href="https://mitchellmunderwood.github.io/MDC-Password-Generator/"><img src="./README-support/logo.png" alt="title" width="200" height="200" ></a>
   
-  MDC Password Generator
+  Password Generator 1.1 MDC
   <br>
 </h1>
 
@@ -53,7 +53,7 @@ MDC Password Generator is currently deployed with Github. <a href="https://mitch
 
 ### Description
 
-MDC Password Generator creates customized passwords built to user specification. Users can configure the generator for specific character sets and generate passwords of specific lengths. Users can instantly copy passwords to the clipboard by clicking on the clipboard icon at the bottom right of the widget. The generator is built using google Material Design Components (MDC).
+Password Generator 1.1 MDC creates customized passwords built to user specification. Users can configure the generator for specific character sets and generate passwords of specific lengths. Users can instantly copy passwords to the clipboard by clicking on the clipboard icon at the bottom right of the widget. The generator is built using google Material Design Components (MDC).
 
 <br/>
 
